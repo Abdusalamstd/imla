@@ -1,3 +1,5 @@
+# encoding=utf-8
+
 import setuptools
 
 with open("README.md", "r") as fh:
@@ -11,8 +13,13 @@ setuptools.setup(
     description="A small package that process Uyghur letters and chars",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    
+     license = "MIT Licence",
+    
+    url="https://github.com/Abdusalamstd/yeziq/",
     packages=setuptools.find_packages(),
+    platforms = "any",
+    install_requires = [],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
