@@ -1,4 +1,4 @@
-# imla
+# yeziq
 Python imla process package\
 ```python
 pip install yeziq
