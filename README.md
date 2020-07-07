@@ -19,13 +19,12 @@ Above is Forms of basic use , there are more method given:
 ```python
 yeziq = Yeziq()
 
+#Available
 yeziq.soztarjima()     #tranlate single CHinese words into Uyghur language
 yeziq.txttarjima()     #tranlator based on Goggle Translator
 yeziq.uytolatin()     #New text convertor (conver into Latin text)
 yeziq.bulut()           #Make words cloud for Uyghur language
-
-# Abouve is now Useful, But there have another Under Construction
-
+#Not Available,  coming soon
 yeziq.ocr()              # OCR technique for Text image recognition(Under Construction and coming soonly, look at Github EasyOCR)
 yeziq.latintouy()     #Latin text convert into New text (Under Construction)
 yeziq.imla()          #Language spell check and Proofreading  (Under Construction , Help)
